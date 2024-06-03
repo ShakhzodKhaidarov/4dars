@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.con {
+  margin: 0 auto;
+  max-width: 1240px;
+  padding: 0 20px;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+.number {
+  top: 30px;
+  left: 565px;
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.33px;
+}
+.button-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 407px;
+  height: 60px;
+}
+button {
+  cursor: pointer;
+}
+.nav-button {
+  background-color: red;
+  font-family: Rubik;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.22px;
+  color: #fff;
+  border: 0;
+  width: 172px;
+  height: 44px;
+}
+
+.color {
+  margin-top: 20px;
+  background-color: red;
+  height: 48px;
+  padding: 0 20px;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: black;
+}
+ul {
+  list-style: none;
+}
+.color__ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.color__a {
+  color: #fff;
+  font-family: Rubik;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.59px;
+}
+
+.header {
+  background-image: url("./image/bg\ photo.png");
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  position: relative;
+}
+
+.disko {
+  height: 62px;
+  padding: 120px 0;
+}
+
+.diko__text {
+  font-family: Rubik;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56.88px;
+  color: #fff;
+}
+
+.sariq {
+  color: yellow;
+}
+.paragrf {
+  font-family: Rubik;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 23.7px;
+  margin-top: 30px;
+}
+
+.button-disko {
+  width: 184px;
+  height: 44px;
+  background-color: red;
+  font-family: Rubik;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.22px;
+  color: #fff;
+  border: 0;
+  margin-top: 50px;
+}
+.slider {
+  position: absolute;
+  bottom: 30px;
+  right: 100px;
+}
+
+.imeges {
+  margin-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.nav__mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 900px) {
+  .con {
+    max-width: 360px;
+    padding: 0 10px;
+  }
+  .nav {
+    display: none;
+  }
+  .nav__mobile {
+    display: block;
+    cursor: pointer;
+  }
+  .color {
+    display: none;
+  }
+  .disko {
+    padding-top: 100px;
+  }
+
+  .slider {
+    position: initial;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  .diko__text {
+    font-family: Rubik;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42.66px;
+    text-align: center;
+  }
+  .imeges {
+    margin-top: 50px;
+  }
+  .img__images {
+    width: 340px;
+    height: 200px;
+  }
+}
